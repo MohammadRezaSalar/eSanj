@@ -1,0 +1,517 @@
+
+
+
+
+*{
+    font-family: IRANSansfanum;
+}
+
+
+
+
+
+
+
+#welcome-div{
+    background-image: url("/includes/images/welcome.jpg");
+    background-position: center;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-right: 68px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#welcome-image{
+    width: 750px;
+    margin-right: 68px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .content-body {
+        margin-right: 0 !important;
+    }
+}
+
+
+
+/* ---------------------    select 2 style ------------------------------       */
+
+.select2.select2-container {
+    width: 100% !important;
+}
+
+.select2.select2-container .select2-selection {
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height: 34px;
+    margin-bottom: 15px;
+    outline: none !important;
+    transition: all .15s ease-in-out;
+}
+
+.select2.select2-container .select2-selection .select2-selection__rendered {
+    color: #333;
+    line-height: 32px;
+    padding-left: 33px;
+}
+
+.select2.select2-container .select2-selection .select2-selection__arrow {
+    background: #f8f8f8;
+    border-right: 1px solid #ccc;
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+    height: 32px;
+    width: 33px;
+}
+
+.select2.select2-container.select2-container--open .select2-selection.select2-selection--single {
+    background: #f8f8f8;
+}
+
+.select2.select2-container.select2-container--open .select2-selection.select2-selection--single .select2-selection__arrow {
+    -webkit-border-radius: 0 3px 0 0;
+    -moz-border-radius: 0 3px 0 0;
+    border-radius: 0 3px 0 0;
+}
+
+.select2.select2-container.select2-container--open .select2-selection.select2-selection--multiple {
+    border: 1px solid #34495e;
+}
+
+.select2.select2-container .select2-selection--multiple {
+    height: auto;
+    min-height: 34px;
+}
+
+.select2.select2-container .select2-selection--multiple .select2-search--inline .select2-search__field {
+    margin-top: 0;
+    height: 32px;
+}
+
+.select2.select2-container .select2-selection--multiple .select2-selection__rendered {
+    display: block;
+    padding: 0 4px;
+    line-height: 29px;
+}
+
+.select2.select2-container .select2-selection--multiple .select2-selection__choice {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 4px 4px 0 0;
+    padding: 0 6px 0 22px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    position: relative;
+}
+
+.select2.select2-container .select2-selection--multiple .select2-selection__choice .select2-selection__choice__remove {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    margin: 0;
+    text-align: center;
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.select2-container .select2-dropdown {
+    background: transparent;
+    border: none;
+    margin-top: -5px;
+}
+
+.select2-container .select2-dropdown .select2-search {
+    padding: 0;
+}
+
+.select2-container .select2-dropdown .select2-search input {
+    outline: none !important;
+    border: 1px solid #34495e !important;
+    border-bottom: none !important;
+    padding: 4px 6px !important;
+}
+
+.select2-container .select2-dropdown .select2-results {
+    padding: 0;
+}
+
+.select2-container .select2-dropdown .select2-results ul {
+    background: #fff;
+    border: 1px solid #34495e;
+}
+
+.select2-container .select2-dropdown .select2-results ul .select2-results__option--highlighted[aria-selected] {
+    background-color: #3498db;
+}
+
+
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    left: 1px;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+    padding-right: 10px;
+
+}
+
+
+
+td > .select2.select2-container .select2-selection {
+    margin-bottom: 0 !important;
+}
+span.select2-selection.select2-selection--single{
+    border-radius: 0.375rem !important;
+}
+span.select2-selection__arrow{
+    border-radius: 0.375rem 0 0 0.375rem !important;
+}
+/* ---------------------    select 2 style ------------------------------       */
+
+
+
+
+
+
+
+
+
+/*      --------------------------                  */
+.card-header{
+    padding: 10px 20px;
+}
+.inputIcon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    font-size: 20px;
+}
+.border-dashed{
+    border: 1px dashed;
+}
+.price{
+    direction: ltr;
+}
+.content-body{
+    margin-right: 5rem;
+}
+.show-color{
+    width: 70px;
+    height: 15px;
+    margin:auto;
+    border-radius: 10px;
+    border:1px solid #adadad;
+}
+.table-responsive{
+    position: relative;
+}
+.loading-wall{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #5252529e;
+    border-radius: 20px;
+}
+.operation-icon{
+    border-radius: 50%;
+    border: 1px solid;
+}
+input{
+    text-align: center;
+}
+
+label {
+    color: #2b2727;
+}
+body{
+    padding:0 !important;
+}
+
+.table.table-hover tr:hover{
+    background-color: #d4e4ec !important;
+}
+
+
+.form-control,
+.bootstrap-select .btn,
+.dataTables_wrapper input[type="search"],
+.dataTables_wrapper input[type="text"],
+.dataTables_wrapper select {
+    border-color: #bbb9b9 !important;
+}
+.bootstrap-select .btn.is-invalid{
+    border-color: #f25767 !important;
+}
+.table thead th,
+.table tbody tr td{
+    border-color: #cccaca !important;
+}
+
+.table thead th {
+    background: #dce6ea;
+}
+
+
+#header-toggle {
+    left: -15px;
+    top: -15px;
+    font-size: 55px;
+    z-index: 500;
+}
+
+
+
+.custom-control-label::before {
+    background-color: #c5c7ce;
+    border-color: #c5c7ce;
+}
+.card{
+    border:1px solid;
+    box-shadow: 0px 4px 10px 0px #9e9e9e;
+    border-radius: 15px;
+}
+/*      --------------------------                  */
+
+.custom-control-label:before, .custom-control-label:after{
+    top:3px;
+}
+
+
+/*  modal bg , for removing white float line after*/
+.modal-backdrop {
+    z-index: 90 !important;
+}
+
+/*--------------------  START       Custom styles         START     ---------------------*/
+.customized-fieldset{
+    border: 1px dashed #797979;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.customized-fieldset > legend{
+    padding: 0 5px;
+    width: auto;
+    font-size: 17px;
+}
+textarea{
+    min-height: 57px;
+    max-height: 100px;
+}
+table{
+    text-align: center;
+}
+/*--------------------  START       Custom styles         START     ---------------------*/
+
+/* ---------------   START   for custom input label with animate   START  ---------------------  */
+/*                  !IMPORTANT         lable most be after input            !IMPORTANT          */
+.form-group{
+    position: relative;
+}
+.float-label{
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    cursor: text;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition:    all .3s ease-in-out;
+    -o-transition:      all .3s ease-in-out;
+    -ms-transition:     all .3s ease-in-out;
+    transition:         all .3s ease-in-out;
+    color: #b1b1b1;
+}
+.input-with-float-label:focus ~ .float-label,
+.input-with-float-label:not(:placeholder-shown) ~ .float-label,
+.selectbox-float-label{
+    top: -11px;
+    right: 15px;
+    font-size: 12px !important;
+    /*z-index: 0;*/
+    z-index: 70;
+    color: #424242;
+}
+.selectbox-float-label{
+    position: absolute;
+}
+.input-with-float-label:focus ~ .float-label::after,
+.input-with-float-label:not(:placeholder-shown) ~ .float-label::after,
+.selectbox-float-label::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    background: #fff;
+    height: 3px;
+    margin-top: 1px;
+    top: 50%;
+    left: -.2em;
+    right: -.2em;
+    z-index: -1;
+}
+.input-with-float-label{
+    text-align:center;
+}
+/* ---------------   END   for custom input label with animate   END  ---------------------  */
+
+/* ---------------   START   for custom checkbox and radio   START  --------------------------  */
+.group {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* margin-bottom: 2em; */
+}
+.customized-checkbox, .customized-radio {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+.group label {
+    position: relative;
+    margin-left: 1em;
+    padding-right: 2em;
+    padding-left: 1em;
+    line-height: 2;
+    cursor: pointer;
+}
+.group label:before {
+    box-sizing: border-box;
+    content: " ";
+    position: absolute;
+    top: 0.3em;
+    right: 0;
+    display: block;
+    width: 1.4em;
+    height: 1.4em;
+    border: 2px solid #8bc34a;
+    border-radius: 0.25em;
+    z-index: 1;
+}
+.customized-radio + label::before {
+    border-radius: 1em;
+    z-index: 1;
+}
+/* Checked */
+.customized-checkbox:checked + label, .customized-radio:checked + label {
+    padding-right: 1em;
+    color: #1565c0;
+    z-index: 1;
+}
+.customized-checkbox:checked + label:before, .customized-radio:checked + label:before {
+    top: 0;
+    width: 100%;
+    height: 2em;
+    background: #dcedc8;
+    z-index: -1;
+}
+/* Transition */
+.group label,.group label::before {
+    -webkit-transition: 0.25s all ease;
+    -o-transition: 0.25s all ease;
+    transition: 0.25s all ease;
+}
+/* ---------------   END   for custom checkbox and radio   END  --------------------------  */
+
+
+
+/*-----------------------------  PRE LOADER ------------------------*/
+.my-preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    background: #3f51b53d;
+}
+.my-loader {
+    display: block;
+    position: relative;
+    right: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #9370DB;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+#my-loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #BA55D3;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+}
+#my-loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #FF00FF;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+/*-----------------------------  PRE LOADER ------------------------*/
+
+
+
+
+
+
